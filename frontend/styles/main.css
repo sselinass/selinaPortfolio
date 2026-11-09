@@ -50,6 +50,21 @@
         width: 150px;
         height: auto;
     }
+    .socials img {
+        width: 30px;
+        height: auto;
+    }
+    .socials {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-self: center;
+        gap: 20px;
+        a {
+            text-decoration: none;
+            color: var(--color-white);
+        }
+    }
     .nav-container {
         .nav {
             list-style: none;
