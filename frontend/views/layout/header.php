@@ -1,10 +1,9 @@
 <?php
 $menu = get_menu_by_slug('main');
-js_log($menu);
 ?>
 
 <header data-layout="header">
-    <mark>hier kommt der header</mark>
+    <mark>hier kommt das logo</mark>
     <nav class="nav-container">
         <ul class="nav">
             <?php foreach ($menu as $item) : ?>

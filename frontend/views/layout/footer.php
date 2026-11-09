@@ -1,10 +1,8 @@
 <?php
-$menu = get_menu_by_slug('main');
-js_log($menu);
+$menu = get_menu_by_slug('legals');
 ?>
 
 <footer data-layout="footer">
-    <mark>hier kommt das logo</mark>
     <nav class="nav-container">
         <ul class="nav">
             <?php foreach ($menu as $item) : ?>
