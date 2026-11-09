@@ -24,6 +24,10 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    .logo {
+        width: 150px;
+        height: auto;
+    }
     .nav-container {
         .nav {
             list-style: none;
@@ -42,6 +46,10 @@
 [data-layout="footer"] {
     padding: var(--gap-around);
     background-color: var(--color-accent);
+    .logo {
+        width: 150px;
+        height: auto;
+    }
     .nav-container {
         .nav {
             list-style: none;

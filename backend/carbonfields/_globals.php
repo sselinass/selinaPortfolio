@@ -6,4 +6,5 @@ use Carbon_Fields\Field;
 Container::make('theme_options', 'Globales')
     ->add_fields([
         // todo: Globale Inhaltsfelder hier ergänzen
+        Field::make('image', 'logo', 'Logo'),
     ]);
