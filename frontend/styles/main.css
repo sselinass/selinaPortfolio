@@ -1,6 +1,7 @@
 @import "_fonts.css";
 @import "_resets.css";
 
+
 /* Definition of base styles. */
 :root {
     /* colors */
@@ -10,7 +11,8 @@
     /* gaps & sizes */
     --gap-around: 40px;
     /* fonts */
-    --font-h1: normal 64px/120% serif;
+    --font-main: normal 16px/150% 'SelinasFont', sans-serif;
+    --font-h1: normal 64px/120% 'SelinasFont', sans-serif;
 }
 
 /* Styling of all available layout components. */
@@ -43,6 +45,7 @@
         }
     }
 }
+
 [data-layout="footer"] {
     padding: var(--gap-around);
     background-color: var(--color-accent);

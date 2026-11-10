@@ -1,9 +1,9 @@
 /*--- My Font ---*/
-/*regular*/
-/*@font-face {
-    font-family: 'Name';
-    font-style: normal;
+/*title*/
+@font-face {
+    font-family: 'SelinasFont';
+    src: url('../fonts/Selinasfont_new-Regular.ttf') format('truetype');
     font-weight: 400;
+    font-style: normal;
     font-display: swap;
-    src: url('../assets/fonts/filename.woff2') format('woff2');
-}*/
+}
